@@ -56,7 +56,7 @@ function add_note()
 
                 if(t == 1)
                 {
-                    console.log(chalk.bgRed("NOTE ALREADY EXISTS !!!"));
+                    console.log(chalk.bgRed("TITLE ALREADY TAKEN !!!"));
                     x = 1;
                 }
                 else
@@ -134,7 +134,7 @@ function remove_note()
             }
             else
             {
-                console.log(chalk.bgRed("NOTE NOT AVAILABLE !!!"));
+                console.log(chalk.bgRed("NOTE NOT FOUND !!!"));
             }
         }
     });
